@@ -1,7 +1,0 @@
-notification
-notifier
-acter
-rédiger
-mandater
-gestion
-bilan
