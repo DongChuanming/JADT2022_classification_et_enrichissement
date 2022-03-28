@@ -1,5 +1,5 @@
 #entraîné sur les formes fléchies (1e groupe) et testé sur les formes fléchie (2e groupe)					
-	occurrences des déclencheurs de l'ensemble d'apprentissage	occurrences des déclencheurs de l'ensemble de test	précision	rappel	f-mesure
+classe	occurrences des déclencheurs de l'ensemble d'apprentissage	occurrences des déclencheurs de l'ensemble de test	précision	rappel	f-mesure
 admin	12696	2241	0.2970355151	0.4515841142	0.3583569405
 diag	22450	1625	0.5032374101	0.8609230769	0.6351872872
 depol	12507	2070	0.705858748	0.8497584541	0.7711530031

@@ -1,5 +1,5 @@
 entraîné sur formes fléchies 1 et 2, testé sur les formes fléchies 3					
-	occurrences des déclencheurs de l'ensemble de train	occurrences des déclencheurs de l'ensemble de test	précision	rappel	f-mesure
+classe	occurrences des déclencheurs de l'ensemble de train	occurrences des déclencheurs de l'ensemble de test	précision	rappel	f-mesure
 admin	14937	2197	0.785954786	0.7437414656	0.7642656688
 diag	24075	2008	0.6707444949	0.9556772908	0.7882522078
 depol	14577	1784	0.8202846975	0.5168161435	0.6341127923

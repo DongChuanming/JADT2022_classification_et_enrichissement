@@ -3,12 +3,14 @@
 
 # Load data
 
+# because of the volume of BASOL corpus, only a small portion of the data was uploaded in this repository, therefore the data used in this script is just for demonstration of the process, in our project this script is used on all the BASOL corpus
+
 # In[ ]:
 
 
 import os
 #dossier2='/media/cdong/Elements/these/Projet/Extractor/mots_embedded'
-dossier2='/media/cdong/Elements/these/Projet/Extractor/mots_embedded'
+dossier2='../../Data_example'
 event_sac=list()
 for file in os.listdir(dossier2):
     with open(dossier2+"/"+file, "r", encoding="utf-8") as f:
@@ -278,7 +280,7 @@ accall
 # In[ ]:
 
 
-with open("/media/cdong/Elements/these/Projet/Extractor/eval_JADT/train12_test2.txt", "w", encoding="utf-8") as t:
+with open("../../Models_and_Evaluation/iteration2/train12_test2.txt", "w", encoding="utf-8") as t:
     for i in [5,4,3,2,1,0]:
         exec("t.write(str(n"+str(i)+")+'\t')")
         exec("print(n"+str(i)+")")
@@ -305,7 +307,7 @@ with open("/media/cdong/Elements/these/Projet/Extractor/eval_JADT/train12_test2.
 
 
 import pickle
-with open("/media/cdong/Elements/these/publication/JADT/models/clf_iter2.pickle",'wb') as fw:
+with open("../../Models_and_Evaluation/iteration2/clf_iter2.pickle",'wb') as fw:
     pickle.dump(clf,fw)
 
 
@@ -314,6 +316,6 @@ with open("/media/cdong/Elements/these/publication/JADT/models/clf_iter2.pickle"
 # In[ ]:
 
 
-with open("/media/cdong/Elements/these/publication/JADT/models/clf_iter2.pickle",'rb') as fr:
+with open("../../Models_and_Evaluation/iteration2/clf_iter2.pickle",'rb') as fr:
     clf=pickle.load(fr)
 
