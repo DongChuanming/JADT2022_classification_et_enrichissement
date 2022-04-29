@@ -5,7 +5,7 @@
 Ce répertoire contient 5 dossiers : Data_example, Models_and_Evaluation, Scripts, Tree_cloud et Typology.
 
 Dans le dossier "Tree_cloud", vous trouverez 3 fichiers, chacun contient repectivement un nuage arboré issu des 3 itérations décrites dans l'article, dont voici la première itération : 
-![Mots les plus fréquents parmi les noyaux d'événements du corpus BASOL](https://raw.githubusercontent.com/DongChuanming/JADT2022_classification_et_enrichissement/main/Tree_cloud/JADT_nuage_arbore_iteration_1.png)
+<img src="https://raw.githubusercontent.com/DongChuanming/JADT2022_classification_et_enrichissement/main/Tree_cloud/JADT_nuage_arbore_iteration_1.png" alt="drawing" style="width:300px;"/>
 
 Dans le dossier "Typology", vous trouverez une formes listant les déclencheurs d'événements attribués aux chaque classe dans la typologie avec une segmentation par itération, ces déclencheurs sont manuellement extrait à partir des nuages arborés dans le dossier tree_cloud.
 
