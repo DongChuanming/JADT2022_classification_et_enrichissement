@@ -4,7 +4,8 @@
 
 Ce répertoire contient 5 dossiers : Data_example, Models_and_Evaluation, Scripts, Tree_cloud et Typology.
 
-Dans le dossier "Tree_cloud", vous trouverez 3 fichiers, chacun contient repectivement un nuage arboré issu des 3 itérations décrites dans l'article, dont voici la première itération : 
+Dans le dossier "Tree_cloud", vous trouverez 3 fichiers, chacun contient repectivement un nuage arboré issu des 3 itérations décrites dans l'article, dont voici le premier : 
+
 <img src="https://raw.githubusercontent.com/DongChuanming/JADT2022_classification_et_enrichissement/main/Tree_cloud/JADT_nuage_arbore_iteration_1.png" alt="drawing" style="width:300px;"/>
 
 Dans le dossier "Typology", vous trouverez une formes listant les déclencheurs d'événements attribués aux chaque classe dans la typologie avec une segmentation par itération, ces déclencheurs sont manuellement extrait à partir des nuages arborés dans le dossier tree_cloud.
@@ -20,7 +21,9 @@ Le dossier "Models_and_Evaluation" contient les modèle de classifieurs entraîn
 
 This directory contains 5 folders: Data_example, Models_and_Evaluation, Scripts, Tree_cloud and Typology.
 
-In the "Tree_cloud" folder, you will find 3 files, each one contains respectively a tree cloud from the 3 iterations described in the article.
+In the "Tree_cloud" folder, you will find 3 files, each one contains respectively a tree cloud from the 3 iterations described in the article, here is the first one: 
+
+<img src="https://raw.githubusercontent.com/DongChuanming/JADT2022_classification_et_enrichissement/main/Tree_cloud/JADT_nuage_arbore_iteration_1.png" alt="drawing" style="width:300px;"/>
 
 In the "Typology" folder, you will find a form listing the event triggers assigned to each class in the typology with a segmentation by iteration, these triggers are manually extracted from the tree clouds in the tree_cloud folder.
 
