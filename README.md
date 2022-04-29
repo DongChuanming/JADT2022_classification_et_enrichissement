@@ -8,7 +8,7 @@ Dans le dossier "Tree_cloud", vous trouverez 3 fichiers, chacun contient repecti
 
 <img src="https://raw.githubusercontent.com/DongChuanming/JADT2022_classification_et_enrichissement/main/Tree_cloud/JADT_nuage_arbore_iteration_1.png" alt="drawing" style="width:300px;"/>
 
-Dans le dossier "Typology", vous trouverez une formes listant les déclencheurs d'événements attribués aux chaque classe dans la typologie avec une segmentation par itération, ces déclencheurs sont manuellement extrait à partir des nuages arborés dans le dossier tree_cloud.
+Dans le dossier "Typology", vous trouverez des formes listant les déclencheurs d'événements attribués aux chaque classe dans la typologie avec une segmentation par itération, ces déclencheurs sont manuellement extrait à partir des nuages arborés dans le dossier tree_cloud.
 
 Le dossier "Scripts" contient le programme utilisé pour générer les formes fléchies des déclencheurs classés (sous-dossier "inflected_forms_generator"), ainsi qu'un algorithme pour entraîner le classifieur de la typologie (sous dossier "classifior_trainer").
 
